@@ -17,4 +17,4 @@ The project includes a Binary Search algorithm. Unlike a linear search ($O(n)$),
 - Randomised Testing
 ## How To Run
 1. Ensure you have Python and Numpy installed 
-2. Run the script: heap_sort_binary_search.py
+2. Run the script: python heap_sort_binary_search.py
