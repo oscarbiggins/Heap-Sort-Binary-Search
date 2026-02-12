@@ -55,19 +55,12 @@ def Binary_Search(data_list, Response):
     return -1
 
 
-
-### Initial Set Up
-if __name__ == "__main__":
-    
+if __name__ == "__main__":    
     data_list = np.array(random.sample(range(1, 100), random.randint(10,100)))
     data_list = data_list.astype(int)
     print(f"Unsorted List: {data_list}")
     Heapify.Run(data_list)
     print(f"Sorted List: {data_list}")
-    ### Heap Sort
-
-
-    ### Binary Search
     try:
         Response = int(input("Enter number to find: "))
         pos = Binary_Search(data_list, Response)
@@ -78,3 +71,4 @@ if __name__ == "__main__":
     except ValueError:
         print("Please enter a valid integer.")
         
+
